@@ -18,15 +18,25 @@ li{
     font-size: 25px;
     margin-top:100px;
 }
+.cart-nav{
+      float:left;
+	  margin-left: 160px;
+	  }
 #cart{
     float:left;
-	border: 1px solid black;
+	border-radius: 5px;
+	border: 1px solid #ddd;
 	padding: 25px;
-	margin: 20px 40px;
+	margin: 5px;
     }
  p{
    text-align: left;
+  
    }
+   #cart select{
+            width:200px;
+			height:25px;
+			}
     #button{
         padding: 20px;
         margin-left: 60px;
@@ -34,7 +44,8 @@ li{
     }
    button{
        padding: 10px;
-   }
+	   color: blue;
+		  }
 </style>
 </head>
 <body>
@@ -59,13 +70,12 @@ li{
 <p>1 kg</p>
 <p>Rs 100/-</p>
 <p>quantity</p>
-    <input list="tech">
-<datalist id="tech">
+  <select>
     <option>1</option>
     <option>2</option>
     <option>3</option>
     <option>4</option>
-</datalist>
+</select>
     <div id="button">
         <button>Add To Cart</button>
     </div>
@@ -76,13 +86,12 @@ li{
 <p>2 kg</p>
 <p>Rs 200/-</p>
 <p>quantity</p>
-    <input list="tech">
-    <datalist id="tech">
+   <select>
         <option>1</option>
         <option>2</option>
         <option>3</option>
         <option>4</option>
-    </datalist>
+    </select>
     <div id="button">
         <button>Add To Cart</button>
     </div>
@@ -93,13 +102,12 @@ li{
 <p>3 kg</p>
 <p>Rs 300/-</p>
 <p>quantity</p>
-    <input list="tech">
-    <datalist id="tech">
+    <select>
         <option>1</option>
         <option>2</option>
         <option>3</option>
         <option>4</option>
-    </datalist>
+    </select>
     <div id="button">
         <button>Add To Cart</button>
 		</div>
@@ -110,16 +118,15 @@ li{
 <p>4 kg</p>
 <p>Rs 400/-</p>
 <p>quantity</p>
-    <input list="tech">
-    <datalist id="tech">
+    <select>
         <option>1</option>
         <option>2</option>
         <option>3</option>
         <option>4</option>
-    </datalist>
-    <div id="button">
+    </select><br>
+ <div id="button">
         <button>Add To Cart</button>
-    </div>
+</div>
 </div>
 </div>
 </body>
