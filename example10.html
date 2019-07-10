@@ -1,0 +1,72 @@
+<html>
+<head>
+<style>
+body{
+    margin: 0px;
+	padding: 0px;
+	}
+.main-nav{
+      display: flex;
+      background-color: #ddd;
+	  height: 10%;
+	  justify-content: space-between;
+	  align-items: center;
+	  position:relative;
+	  }
+   ul{
+      position: absolute;
+      background-color: green;
+      right: 0px;
+	  top: 50px;
+	  list-style: none;
+     }
+	 li{
+	 color: white;
+	 }
+	  .box div{
+	        width: 50%;
+			text-align: center;
+			}
+	  #box{
+		 display: flex;
+		 width: 70%;
+		 height: 50%;
+		 justify-content: center;
+		 position: ;
+		  }
+	  button{
+	      background-color: green;
+		  width: 40px;
+		  height: 60px;
+		  margin-left: 50%;
+		  margin-top: 20px;
+		  position: absolute;
+		  }
+		 
+</style>
+</head>
+<body>
+<div class="body-content">
+<div class="main-nav">
+<div>vbm infotech</div>
+<img src="carrot.jpg" width="30px" height="30px"/>
+<ul>
+  <li>home</li>
+  <li>about</li>
+  <li>order</li>
+  <li>list</li>
+</ul>
+</div>
+<div id="box" class="box" >
+<div style="background-color: orange;">VBM INFOTECH</div>
+</div>
+<!--<button onclick="open()">click here</button>-->
+</div>
+</div>
+<script>
+function open() {
+  document.getElementById("box").style.toggle("show");
+}
+</script>
+</body>
+</html>
